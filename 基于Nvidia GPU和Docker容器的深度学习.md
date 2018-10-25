@@ -1,13 +1,13 @@
 # 基于Nvidia GPU和Docker容器的深度学习 #
 
-- GPU云主机  
+**GPU云主机：**
 
 操作系统：Ubuntu 16.04 64位  
 GPU：	1 x Nvidia Tesla P40  
 
 ## 1. 安装CUDA Driver ##
 
-- **Pre-installation Actions：**
+### 1.1 Pre-installation Actions ###
 
 安装gcc、g++、make：
 
@@ -23,7 +23,7 @@ GPU：	1 x Nvidia Tesla P40
     # sudo apt-get install linux-headers-$(uname -r)
 
 
-- **安装NVIDIA driver**  
+### 1.2 安装NVIDIA driver ###
 
 CUDA安装有两种方式：  
 1.Package安装  
@@ -196,7 +196,7 @@ Reboot云主机：
     # sudo update-rc.d nvidia-probe.sh defaults 95
 
 
-- **Post-installation Actions**
+### 1.3 Post-installation Actions ###
 
 配置环境变量：
     
@@ -214,7 +214,7 @@ Reboot云主机：
     exit 0
 
 
-- **CUDA driver验证**
+### 1.4 CUDA driver验证 ###
 
 查看Driver Version：
     
@@ -286,7 +286,7 @@ Reboot云主机：
 
 ## 2. 安装Nvidia-docker ##
 
-- **安装Docker**
+### 2.1 安装Docker ###
 
 
 安装docker-ce：
@@ -325,7 +325,7 @@ Reboot云主机：
       OS/Arch:  linux/amd64
       Experimental: false
     
-- **安装nvidia-docker**  
+### 2.2 安装nvidia-docker ###
 
 安装nvidia-docker：
     
@@ -363,7 +363,7 @@ Reboot云主机：
     +-----------------------------------------------------------------------------+
    
  
-- **配置Docker默认runtime**
+### 2.3 配置Docker默认runtime ###
     
 cat /etc/docker/daemon.json
   
@@ -382,8 +382,7 @@ cat /etc/docker/daemon.json
     # systemctl restart docker
     # systemctl status docker
 
-
-- **运行TensorFlow卷积神经Model：**
+### 2.4 运行TensorFlow卷积神经Model ###
 
 Docker运行：
 
