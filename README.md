@@ -7,3 +7,6 @@
 [基于京东云GPU云主机搭建TensorFlow深度学习环境](https://github.com/bingli7/knowledge-base/blob/master/%E5%9F%BA%E4%BA%8E%E4%BA%AC%E4%B8%9C%E4%BA%91GPU%E4%BA%91%E4%B8%BB%E6%9C%BA%E6%90%AD%E5%BB%BATensorFlow%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%8E%AF%E5%A2%83.md)
 
 [京东云Kubernetes部署NFS+HTTP文件服务器](https://github.com/bingli7/knowledge-base/blob/master/%E4%BA%AC%E4%B8%9C%E4%BA%91Kubernetes%E9%83%A8%E7%BD%B2NFS%2BHTTP%E6%96%87%E4%BB%B6%E6%9C%8D%E5%8A%A1%E5%99%A8.md)
+
+
+[京东云Kubernetes集群+Traefik实战](https://github.com/bingli7/knowledge-base/blob/master/%E4%BA%AC%E4%B8%9C%E4%BA%91Kubernetes%E9%9B%86%E7%BE%A4%2BTraefik%E5%AE%9E%E6%88%98.md)
